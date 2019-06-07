@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-Must have Docker installed. 
+Must have Docker installed.
 
 Visit <https://docs.docker.com/> to install Docker.
 
