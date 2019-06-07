@@ -1,4 +1,10 @@
-# How to run
+# Docker for Pyspark and Jupyter Notebook
+
+## Prerequisite
+
+Must have Docker installed. 
+
+Visit <https://docs.docker.com/> to install Docker.
 
 ## Clone this Repository, and in command line, run
 
