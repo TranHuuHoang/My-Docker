@@ -6,13 +6,25 @@ Must have Docker installed.
 
 Visit <https://docs.docker.com/> to install Docker.
 
-## Clone this Repository, and in command line, run
+## Clone this Repository
 
+## In command line, make your script executable
+
+``` bash
+chmod gu+x build.sh test.sh
+```
+
+## Then run this script to build your image
+
+``` bash
 ./build.sh
+```
 
-## Then run
+## Then run the container
 
+``` bash
 ./test.sh
+```
 
 ## In browser, go to
 
@@ -45,9 +57,11 @@ wordCounts = words.map(lambda word: (word, 1)).reduceByKey(lambda a,b:a +b)
 wordCounts.collect()
 ```
 
-Result of the Word Count: 
+Example of 1 result of the Word Count (This may varies with your Text.txt file):
 
 ![alt text](Screenshot-Wordcount.png "Result of Wordcount")
+
+- The result is considered to be successful if the program returns a list of words with its frequency of appearance in your Text.txt file.
 
 ## Pull image from Docker Hub
 
