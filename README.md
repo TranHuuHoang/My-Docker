@@ -45,7 +45,9 @@ wordCounts = words.map(lambda word: (word, 1)).reduceByKey(lambda a,b:a +b)
 wordCounts.collect()
 ```
 
-Run this file to test.
+Result of the Word Count: 
+
+![alt text](Screenshot-Wordcount.png "Result of Wordcount")
 
 ## Pull image from Docker Hub
 
