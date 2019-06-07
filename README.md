@@ -22,7 +22,7 @@ to access jupyter notebook
 
 ## Test Word count
 
-In Jupyter Notebook in browser, go to `root` directory. Create a Test.txt file and write something inside.
+In Jupyter Notebook in browser, go to `root` directory. Create a Text.txt file and write something inside.
 
 ## Create a python3 file to test
 
